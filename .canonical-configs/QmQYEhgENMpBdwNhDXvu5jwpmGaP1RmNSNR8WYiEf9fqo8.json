@@ -1,0 +1,53 @@
+{
+  "options": {
+    "projectName": "Hello ChugSplash"
+  },
+  "contracts": {
+    "MyFirstContract": {
+      "contract": "contracts/HelloChugSplash.sol:HelloChugSplash",
+      "proxy": "0x16386c99e7c79a04657fBa731A161Ae39B0f32d5",
+      "proxyType": "default",
+      "variables": {
+        "number": 1,
+        "stored": true,
+        "storageName": "First",
+        "otherStorage": "0x1111111111111111111111111111111111111111"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "solcVersion": "0.8.17",
+      "solcLongVersion": "0.8.17+commit.8df45f5f",
+      "input": {
+        "language": "Solidity",
+        "settings": {
+          "outputSelection": {
+            "*": {
+              "*": [
+                "storageLayout",
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          }
+        },
+        "sources": {
+          "contracts/HelloChugSplash.sol": {
+            "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.17;\n\ncontract HelloChugSplash {\n    uint8 public number;\n    bool public stored;\n    address public otherStorage;\n    string public storageName;\n}\n"
+          }
+        }
+      }
+    }
+  ]
+}
