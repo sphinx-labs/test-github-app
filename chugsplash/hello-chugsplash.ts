@@ -7,7 +7,12 @@ const config: UserChugSplashConfig = {
   contracts: {
     MyFirstContract: {
       contract: 'HelloChugSplash',
-      variables: {},
+      variables: {
+        number: 1,
+        stored: true,
+        storageName: 'First',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
     },
   },
 }
