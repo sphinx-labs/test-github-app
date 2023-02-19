@@ -60,18 +60,18 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@chugsplash/contracts@^0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@chugsplash/contracts/-/contracts-0.4.3.tgz#a4a68b75a8bf00b31b83f641b5ec9b5c0ccd2ddf"
-  integrity sha512-/jfe9gRhCWx/CXLOKOIanKDKjXsQ/Mh4FpRy3IRrMCofQYudzwRqmBRwxrltcZ6xno7Z8BTTJFQBhZZrvWQ2Gw==
+"@chugsplash/contracts@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@chugsplash/contracts/-/contracts-0.5.2.tgz#d40e4968ed740c73d5ca32f954ecf8f269145757"
+  integrity sha512-Kf92zyMdoprmADrqIyaP/KhR4/ViNMpAcBaGLDgDOEQHzcLHCbbMNITuP3xpLoF2R6OOBKccEBNBfiRPN3lszQ==
 
-"@chugsplash/core@^0.5.5", "@chugsplash/core@^0.5.6":
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/@chugsplash/core/-/core-0.5.6.tgz#f40c433639d87b01a2e76abfed98e4d62efed66b"
-  integrity sha512-Y/Q9+ypAN5hdrMdFW1OTJyoKLeCKVKmZwzS+Xla7ZDLnG3yTapJcloV7N6OE8Fi1eNM6MV9oMUNTk4YfKAji1A==
+"@chugsplash/core@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@chugsplash/core/-/core-0.7.0.tgz#610c38c9a852878cc8393a8fe206a69da1907af2"
+  integrity sha512-1MdfmwUmefxR4E5ZSl2O29S/PDvLGgb9Dt7ESy0s2n98MAkZyzOdP/50hac9PFQeYzdCWcRh5OjX8R26WdyvAQ==
   dependencies:
     "@amplitude/node" "^1.10.2"
-    "@chugsplash/contracts" "^0.4.3"
+    "@chugsplash/contracts" "^0.5.2"
     "@eth-optimism/common-ts" "^0.7.1"
     "@eth-optimism/contracts-bedrock" "^0.8.0"
     "@eth-optimism/core-utils" "^0.9.1"
@@ -91,24 +91,26 @@
     semver "^7.3.8"
     yesno "^0.4.0"
 
-"@chugsplash/executor@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@chugsplash/executor/-/executor-0.5.5.tgz#c35bbb6427f0d8c7b0e7620cdc3f20058bf90f92"
-  integrity sha512-QRYNJXhJYSrH+k6tVXRsZp8BZ5jfAK2hbncCs9G2Mn0Y0IEqMEzr8nzA9iR7IhKT1p5eseDp/35pYTOcI80wUQ==
+"@chugsplash/executor@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@chugsplash/executor/-/executor-0.7.0.tgz#2d5d7d85d9804b8232c357cf882f6ee352d870fd"
+  integrity sha512-xlP1uMQ6NZP+PUPCbmPsnOIMIL///09jRnjWA7pedSB/pXpCBIRCTQvWno8Na9T2jS+vVdshBT/XBnriRBZ0HA==
   dependencies:
     "@amplitude/node" "^1.10.2"
-    "@chugsplash/core" "^0.5.5"
+    "@chugsplash/core" "^0.7.0"
     "@nomiclabs/hardhat-etherscan" "^3.1.3"
+    graphql "^16.6.0"
+    graphql-request "^5.1.0"
     hardhat "^2.10.0"
 
-"@chugsplash/plugins@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@chugsplash/plugins/-/plugins-0.10.7.tgz#b1959b9a38f7404188ef28e3dfb16c3f24fc0f93"
-  integrity sha512-5QakN8mwBCatcv6SnJilqbL75xM4GjSuwbdU1AfBl388q6OkFbcX7v+X4j9Fdl6/e735j/ra5+Rn66kc0rf+GA==
+"@chugsplash/plugins@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@chugsplash/plugins/-/plugins-0.12.0.tgz#60d87bb0fe34b835df15e848b793aa108cf1955e"
+  integrity sha512-1SRcDzL76ml5upaNt9tWTmR4d3hALvceD8gRqjx5XlJv8Nb+Lcwb5467rq89XwIdve/bJ1wPZ5kh4TzLUsaUAA==
   dependencies:
-    "@chugsplash/contracts" "^0.4.3"
-    "@chugsplash/core" "^0.5.6"
-    "@chugsplash/executor" "^0.5.5"
+    "@chugsplash/contracts" "^0.5.2"
+    "@chugsplash/core" "^0.7.0"
+    "@chugsplash/executor" "^0.7.0"
     "@eth-optimism/core-utils" "^0.9.1"
     "@ethereumjs/common" "^3.0.1"
     "@ethereumjs/vm" "^6.2.0"
@@ -693,6 +695,11 @@
     "@ethersproject/logger" "^5.7.0"
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
+
+"@graphql-typed-document-node/core@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-typed-document-node/core/-/core-3.1.1.tgz#076d78ce99822258cf813ecc1e7fa460fa74d052"
+  integrity sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==
 
 "@ipld/dag-cbor@^6.0.3":
   version "6.0.15"
@@ -2449,6 +2456,13 @@ create-require@^1.1.0:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
+
 cross-spawn@^7.0.0:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
@@ -3111,6 +3125,11 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
+extract-files@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/extract-files/-/extract-files-9.0.0.tgz#8a7744f2437f81f5ed3250ed9f1550de902fe54a"
+  integrity sha512-CvdFfHkC95B4bBBk36hcEmvdR2awOdhhVUYH6S/zrVj3477zven/fJMYg7121h4T1xHZC+tetUpubpAhxwI7hQ==
+
 extsprintf@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
@@ -3281,6 +3300,15 @@ form-data@^2.2.0:
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.6"
+    mime-types "^2.1.12"
+
+form-data@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
+  integrity sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
 form-data@^4.0.0:
@@ -3592,6 +3620,21 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0, 
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
+
+graphql-request@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/graphql-request/-/graphql-request-5.1.0.tgz#dbc8feee27d21b993cd5da2d3af67821827b240a"
+  integrity sha512-0OeRVYigVwIiXhNmqnPDt+JhMzsjinxHE7TVy3Lm6jUzav0guVcL0lfSbi6jVTRAxcbwgyr6yrZioSHxf9gHzw==
+  dependencies:
+    "@graphql-typed-document-node/core" "^3.1.1"
+    cross-fetch "^3.1.5"
+    extract-files "^9.0.0"
+    form-data "^3.0.0"
+
+graphql@^16.6.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
+  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
 
 growl@1.10.5:
   version "1.10.5"
@@ -5190,6 +5233,13 @@ node-environment-flags@1.0.6:
   dependencies:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
+
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-fetch@^2.6.1, node-fetch@^2.6.7, node-fetch@^2.6.8:
   version "2.6.9"
