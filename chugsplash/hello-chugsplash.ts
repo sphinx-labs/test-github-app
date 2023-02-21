@@ -23,6 +23,15 @@ const config: UserChugSplashConfig = {
         otherStorage: '0x1111111111111111111111111111111111111111',
       },
     },
+    MyThirdContract: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 1,
+        stored: false,
+        storageName: 'First',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
   },
 }
 
