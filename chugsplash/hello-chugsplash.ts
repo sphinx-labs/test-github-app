@@ -14,6 +14,24 @@ const config: UserChugSplashConfig = {
         otherStorage: '0x1111111111111111111111111111111111111111',
       },
     },
+    AnotherContract: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 1,
+        stored: false,
+        storageName: 'First',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
+    ERC20ButNotActually: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 1,
+        stored: false,
+        storageName: 'First',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
   },
 }
 
