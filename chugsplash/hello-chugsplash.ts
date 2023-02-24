@@ -9,6 +9,8 @@ const config: UserChugSplashConfig = {
 
 
 
+
+
       
       contract: 'HelloChugSplash',
       variables: {
