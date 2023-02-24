@@ -5,6 +5,9 @@ const config: UserChugSplashConfig = {
     projectName: 'Hello ChugSplash',
   },
   contracts: {
+
+
+    
     MyFirstContract: {
       contract: 'HelloChugSplash',
       variables: {
