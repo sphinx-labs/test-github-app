@@ -5,8 +5,11 @@
   "repository": "https://github.com/chugsplash/test-github-app.git",
   "author": "Ryan Pate <ryantpate97@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@chugsplash/plugins": "^0.13.0"
+  },
   "devDependencies": {
-    "@chugsplash/plugins": "^0.11.1",
+    "@chugsplash/plugins": "^0.13.0",
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
