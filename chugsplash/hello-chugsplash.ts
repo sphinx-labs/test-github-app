@@ -8,13 +8,22 @@ const config: UserChugSplashConfig = {
     MyFirstContract: {
       contract: 'HelloChugSplash',
       variables: {
-        number: 8,
+        number: 9,
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
       },
     },
     MySecondContract: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 12,
+        stored: true,
+        storageName: 'First',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
+    MyThirdContract: {
       contract: 'HelloChugSplash',
       variables: {
         number: 12,
