@@ -2,7 +2,7 @@ import { UserChugSplashConfig } from '@chugsplash/core'
 
 const config: UserChugSplashConfig = {
   options: {
-    projectName: 'Hello ChugSplash RP',
+    projectName: 'Ryan Test',
   },
   contracts: {
     MyFirstContract: {
