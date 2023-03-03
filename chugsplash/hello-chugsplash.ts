@@ -32,6 +32,15 @@ const config: UserChugSplashConfig = {
         otherStorage: '0x1111111111111111111111111111111111111111',
       },
     },
+    MyForthContract: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 3,
+        stored: false,
+        storageName: 'false',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
   },
 }
 
