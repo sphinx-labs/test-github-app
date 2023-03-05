@@ -12,6 +12,7 @@ const config: UserChugSplashConfig = {
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
+        testInt: 1
       },
     },
     MySecondContract: {
@@ -21,6 +22,7 @@ const config: UserChugSplashConfig = {
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
+        testInt: 1
       },
     },
     MyThirdContract: {
@@ -30,6 +32,7 @@ const config: UserChugSplashConfig = {
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
+        testInt: 1
       },
     },
     MyForthContract: {
@@ -39,6 +42,16 @@ const config: UserChugSplashConfig = {
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
+      },
+    },
+    MyFiveContract: {
+      contract: 'HelloChugSplash',
+      variables: {
+        number: 3,
+        stored: false,
+        storageName: 'false',
+        otherStorage: '0x1111111111111111111111111111111111111111',
+        testInt: 1
       },
     },
   },
