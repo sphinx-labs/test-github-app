@@ -42,6 +42,7 @@ const config: UserChugSplashConfig = {
         stored: false,
         storageName: 'false',
         otherStorage: '0x1111111111111111111111111111111111111111',
+        testInt: 1
       },
     },
     MyFiveContract: {
